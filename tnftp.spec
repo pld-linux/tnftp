@@ -16,6 +16,8 @@ BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	ftp
 Obsoletes:	ftp6
+Obsoletes:	lukemftp
+Provides:	lukemftp
 
 %description
 The enhancements over the standard ftp client include:
