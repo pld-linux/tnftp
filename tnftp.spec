@@ -1,16 +1,16 @@
 
-%define		_beta		beta1
+%define		_ver		20030825
 
 Summary:	The enhanced ftp client
 Summary(pl):	Rozszerzony klient ftp
 Name:		tnftp
 Version:	2.0
-Release:	0.%{_beta}.2
+Release:	0.%{_ver}.1
 License:	BSD
 Group:		Applications/Networking
 Vendor:		Luke Mewburn <lukem@netbsd.org>
-Source0:	ftp://ftp.netbsd.org/pub/NetBSD/misc/tnftp/%{name}-%{version}-%{_beta}.tar.gz
-# Source0-md5:	887428aa6382192495318a41b0379011
+Source0:	ftp://ftp.netbsd.org/pub/NetBSD/misc/tnftp/%{name}-%{_ver}.tar.gz
+# Source0-md5:	9b633ae6cacc01dbdadc6b9e3f180b4f
 BuildRequires:	ncurses-devel >= 5.2
 BuildRequires:	automake
 BuildRequires:	autoconf
@@ -46,7 +46,7 @@ Dodatkowe rozszerzenia w stosunku do standardowego klienta to:
 - inne
 
 %prep
-%setup -q -n %{name}-%{version}-%{_beta}
+%setup -q -n %{name}-%{_ver}
 
 %build
 
