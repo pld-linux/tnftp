@@ -5,7 +5,7 @@ Summary:	The enhanced ftp client
 Summary(pl):	Rozszerzony klient ftp
 Name:		tnftp
 Version:	2.0
-Release:	0.%{_beta}.1
+Release:	0.%{_beta}.2
 License:	BSD
 Group:		Applications/Networking
 Vendor:		Luke Mewburn <lukem@netbsd.org>
@@ -64,6 +64,8 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 	bindir=$RPM_BUILD_ROOT%{_bindir} \
 	mandir=$RPM_BUILD_ROOT%{_mandir}/man1
 install src/ftp.1 $RPM_BUILD_ROOT%{_mandir}/man1
+
+ln -sf tnftp $RPM_BUILD_ROOT%{_bindir}/ftp
 
 %clean
 rm -rf $RPM_BUILD_ROOT
