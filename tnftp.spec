@@ -1,8 +1,8 @@
 
 %define		_ver		20030825
 
-Summary:	The enhanced ftp client
-Summary(pl):	Rozszerzony klient ftp
+Summary:	The enhanced FTP client
+Summary(pl):	Rozszerzony klient FTP
 Name:		tnftp
 Version:	2.0
 Release:	0.%{_ver}.1
@@ -21,28 +21,28 @@ Obsoletes:	lukemftp
 Provides:	lukemftp
 
 %description
-The enhancements over the standard ftp client include:
-- command-line fetching of URLS, including support for:
-     - http proxies
+The enhancements over the standard FTP client include:
+- command-line fetching of URLs, including support for:
+     - HTTP and FTP proxies
      - authentication
 - dynamic progress bar
 - IPv6 support
 - paging of local and remote files, and of directory listings
 - socks4/socks5 support
-- TIS Firewall Toolkit gate ftp proxy support
+- TIS Firewall Toolkit gate FTP proxy support
 - transfer-rate throttling
 - other
 
 %description -l pl
 Dodatkowe rozszerzenia w stosunku do standardowego klienta to:
-- obs³uga URL-i w linii poleceñ w³±czaj±c wsparcie dla:
-     - http i ftp proxy
+- obs³uga URLi w linii poleceñ w³±czaj±c wsparcie dla:
+     - HTTP i FTP proxy
      - autoryzacje
 - dynamiczny wska¼nik postêpu
 - stronicowanie lokalnych i zdalnych listingów plików i katalogów
 - wsparcie dla IPv6
 - wsparcie dla socks4/socks5
-- wsparcie dla bramki ftp w TIS Firewall Toolkit
+- wsparcie dla bramki FTP w TIS Firewall Toolkit
 - inne
 
 %prep
