@@ -10,6 +10,7 @@ License:	BSD
 Group:		Applications/Networking
 Vendor:		Luke Mewburn <lukem@netbsd.org>
 Source0:	ftp://ftp.netbsd.org/pub/NetBSD/misc/tnftp/%{name}-%{version}-%{_beta}.tar.gz
+# Source0-md5:	887428aa6382192495318a41b0379011
 BuildRequires:	ncurses-devel >= 5.2
 BuildRequires:	automake
 BuildRequires:	autoconf
