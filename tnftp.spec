@@ -65,8 +65,6 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 	mandir=$RPM_BUILD_ROOT%{_mandir}/man1
 install src/ftp.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
-ln -sf tnftp $RPM_BUILD_ROOT%{_bindir}/ftp
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
