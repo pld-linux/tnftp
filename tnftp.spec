@@ -23,8 +23,8 @@ Provides:	lukemftp
 %description
 The enhancements over the standard FTP client include:
 - command-line fetching of URLs, including support for:
-     - HTTP and FTP proxies
-     - authentication
+	- HTTP and FTP proxies
+	- authentication
 - dynamic progress bar
 - IPv6 support
 - paging of local and remote files, and of directory listings
@@ -36,8 +36,8 @@ The enhancements over the standard FTP client include:
 %description -l pl
 Dodatkowe rozszerzenia w stosunku do standardowego klienta to:
 - obs³uga URLi w linii poleceñ w³±czaj±c wsparcie dla:
-     - HTTP i FTP proxy
-     - autoryzacje
+	- HTTP i FTP proxy
+	- autoryzacje
 - dynamiczny wska¼nik postêpu
 - stronicowanie lokalnych i zdalnych listingów plików i katalogów
 - wsparcie dla IPv6
