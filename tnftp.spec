@@ -11,14 +11,14 @@ Group:		Applications/Networking
 Vendor:		Luke Mewburn <lukem@netbsd.org>
 Source0:	ftp://ftp.netbsd.org/pub/NetBSD/misc/tnftp/%{name}-%{_ver}.tar.gz
 # Source0-md5:	831d606d4f13f1826675d066f12a4169
-BuildRequires:	ncurses-devel >= 5.2
-BuildRequires:	automake
 BuildRequires:	autoconf
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRequires:	automake
+BuildRequires:	ncurses-devel >= 5.2
 Obsoletes:	ftp
 Obsoletes:	ftp6
 Obsoletes:	lukemftp
 Provides:	lukemftp
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The enhancements over the standard FTP client include:
