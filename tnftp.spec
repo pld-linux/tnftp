@@ -2,7 +2,7 @@
 %define		_ver		20050103
 
 Summary:	The enhanced FTP client
-Summary(pl):	Rozszerzony klient FTP
+Summary(pl.UTF-8):   Rozszerzony klient FTP
 Name:		tnftp
 Version:	2.0
 Release:	0.%{_ver}.1
@@ -33,13 +33,13 @@ The enhancements over the standard FTP client include:
 - transfer-rate throttling
 - other
 
-%description -l pl
+%description -l pl.UTF-8
 Dodatkowe rozszerzenia w stosunku do standardowego klienta to:
-- obs³uga URLi w linii poleceñ w³±czaj±c wsparcie dla:
+- obsÅ‚uga URLi w linii poleceÅ„ wÅ‚Ä…czajÄ…c wsparcie dla:
 	- HTTP i FTP proxy
 	- autoryzacje
-- dynamiczny wska¼nik postêpu
-- stronicowanie lokalnych i zdalnych listingów plików i katalogów
+- dynamiczny wskaÅºnik postÄ™pu
+- stronicowanie lokalnych i zdalnych listingÃ³w plikÃ³w i katalogÃ³w
 - wsparcie dla IPv6
 - wsparcie dla socks4/socks5
 - wsparcie dla bramki FTP w TIS Firewall Toolkit
