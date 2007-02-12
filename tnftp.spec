@@ -2,7 +2,7 @@
 %define		_ver		20050103
 
 Summary:	The enhanced FTP client
-Summary(pl.UTF-8):   Rozszerzony klient FTP
+Summary(pl.UTF-8):	Rozszerzony klient FTP
 Name:		tnftp
 Version:	2.0
 Release:	0.%{_ver}.1
