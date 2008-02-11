@@ -1,0 +1,2 @@
+- rebuild on new glibc to get proper size of ipv6 sockaddr_* structures
+- release 2
