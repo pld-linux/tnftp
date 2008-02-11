@@ -1,5 +1,5 @@
 
-%define		_ver		20050103
+%define		_ver	20070806
 
 Summary:	The enhanced FTP client
 Summary(pl.UTF-8):	Rozszerzony klient FTP
@@ -10,7 +10,7 @@ License:	BSD
 Group:		Applications/Networking
 Vendor:		Luke Mewburn <lukem@netbsd.org>
 Source0:	ftp://ftp.netbsd.org/pub/NetBSD/misc/tnftp/%{name}-%{_ver}.tar.gz
-# Source0-md5:	831d606d4f13f1826675d066f12a4169
+# Source0-md5:	bc78ddc857156f8bc4222d15cce6f76d
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	ncurses-devel >= 5.2
