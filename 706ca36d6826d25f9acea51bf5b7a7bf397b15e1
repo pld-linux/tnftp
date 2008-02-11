@@ -1,0 +1,4 @@
+- added BuildRequires rules,
+- typo: s/LDLAGS/LDFLAGS/ (stripping in %install noow is not neeeded),
+- cosmetics,
+- fixed %files list (removed %%{_mandir}/man1/cat1 files).
